@@ -1,31 +1,31 @@
 # OMNI Observer 🎮🎥
 
-O **OMNI Observer** é uma ferramenta inteligente e automatizada de controle de câmera de espectador para **Counter-Strike 2 (CS2)**. Desenvolvido para narradores, produtores de conteúdo e observadores de campeonatos, o aplicativo utiliza dados táticos em tempo real (GSI) e integração avançada com o HLAE para proporcionar a melhor experiência de transmissão.
+**OMNI Observer** is an intelligent, automated spectator camera controller for **Counter-Strike 2 (CS2)**. Designed for streamers, tournament observers, and content creators, the application uses real-time Game State Integration (GSI) telemetry and Half-Life Advanced Effects (HLAE) integration to deliver professional-grade broadcast quality.
 
 ---
 
-## 🚀 Principais Funcionalidades
+## 🚀 Key Features
 
-* **Auto Observer (Foco por IA):** Seleciona automaticamente qual jogador focar com base em telemetria em tempo real (se está plantando/defusando a C4, trocando tiros, proximidade de inimigos, etc.).
-* **Câmera Cinemática (HLAE):** Carregamento dinâmico e execução de caminhos de câmera fluidos (*campaths*) no fim do round ou via atalhos, criando transições de nível profissional.
-* **Gerenciador de Câmeras Estáticas:** Atalhos rápidos configuráveis (F3 a F8) para posicionar a câmera instantaneamente em pontos-chave do mapa (Spawns, Bomb Sites A/B, Meio do mapa, Visão aérea).
-* **Painel de Controle Intuitivo:** Interface desktop nativa para gerenciar pesos de prioridade de foco, ajustar tempos de cooldown e ativar sua licença.
-
----
-
-## 🛠️ Como Funciona?
-
-O aplicativo conecta-se ao CS2 usando duas portas de comunicação nativas do jogo:
-1. **GSI (Game State Integration):** O CS2 envia dados da partida (quem está vivo, vida, posição, status do round) para o OMNI Observer em tempo real.
-2. **Netcon (Network Console):** O OMNI Observer conecta-se ao console interno do CS2 para executar comandos de troca de câmera de forma instantânea e segura (sem risco de banimento VAC, pois utiliza recursos nativos do jogo).
+* **Auto Observer (AI-Powered Focus):** Automatically selects which player to spectate based on real-time match data (e.g., active gunfights, bomb planting/defusing status, player proximity).
+* **Cinematic Camera (HLAE Integration):** Dynamically loads and executes smooth camera paths (*campaths*) at round ends or custom key binds for cinematic transitions.
+* **Static Camera Binds Manager:** Fast, customizable hotkeys (F3 to F8) to position the camera instantly at spawn points, bomb sites A/B, mid-map, and overhead top-down views.
+* **Intuitive Control Panel:** Built-in desktop dashboard to configure priority weights, adjust transition cooldowns, and manage your license key.
 
 ---
 
-## 📦 Como Instalar (Para Usuários)
+## 🛠️ How It Works
 
-1. Baixe a versão estável mais recente na aba **Releases** deste repositório (arquivo `.zip`).
-2. Extraia o conteúdo do arquivo em uma pasta de sua preferência.
-3. Abra a pasta extraída e execute o arquivo **`OMNI Observer.exe`**.
-4. No painel que se abre, clique em **Instalar GSI CFG** para configurar a integração com o seu CS2 de forma totalmente automática.
-5. Inicie seu CS2 com a flag `-netconport 2121` nas opções de inicialização da Steam.
-6. Pronto! A integração estará ativa e o controle estará na tela.
+The application interfaces with CS2 through two native communication channels:
+1. **GSI (Game State Integration):** CS2 sends real-time telemetry (player health, active weapons, match events) to the OMNI Observer server.
+2. **Netcon (Network Console):** OMNI Observer connects securely to CS2's internal developer console to simulate spectator slot changes instantly and safely (completely VAC-safe, utilizing official game APIs).
+
+---
+
+## 📦 Installation & Setup (For Users)
+
+1. Download the latest release `.zip` archive from the **Releases** tab of this repository.
+2. Extract the archive into a folder of your choice.
+3. Open the folder and run **`OMNI Observer.exe`**.
+4. In the control panel, click **Install GSI CFG** to configure the integration files for CS2 automatically.
+5. Launch CS2 with the `-netconport 2121` option added to your Steam launch options.
+6. You're ready! Start spectating a match, and the automation will take over.
