@@ -32,6 +32,6 @@ The application interfaces with CS2 through two native communication channels:
 
 ---
 
-## 📦 For more content come to our Discord
+## 🖥️ For more content come to our Discord
 
 https://discord.gg/pGAmp6qNYQ
