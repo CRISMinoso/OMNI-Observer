@@ -29,3 +29,9 @@ The application interfaces with CS2 through two native communication channels:
 4. In the control panel, click **Install GSI CFG** to configure the integration files for CS2 automatically.
 5. Launch CS2 with the `-netconport 2121` option added to your Steam launch options.
 6. You're ready! Start spectating a match, and the automation will take over.
+
+---
+
+## 📦 For more content come to our Discord
+
+https://discord.gg/pGAmp6qNYQ
