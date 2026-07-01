@@ -1,8 +1,9 @@
+
 # OMNI Observer 🎮🎥
 
 **OMNI Observer** is an intelligent, automated spectator camera controller for **Counter-Strike 2 (CS2)**. Designed for streamers, tournament observers, and content creators, the application uses real-time Game State Integration (GSI) telemetry and Half-Life Advanced Effects (HLAE) integration to deliver professional-grade broadcast quality.
 
-<img width="1910" height="947" alt="image" src="https://github.com/user-attachments/assets/439f1386-021f-400d-b8d6-f06d8cca8127" />
+<img width="1918" height="1008" alt="print" src="https://github.com/user-attachments/assets/83625f04-162b-4088-aaa1-b9996003c488" />
 
 ---
 
